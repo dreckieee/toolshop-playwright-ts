@@ -4,6 +4,7 @@ import { signIn } from './helpers/auth';
 test('Sign-in Account', async ({ page }) => {
   await signIn(page);
 
+  await expect(page.getByRole('heading', { name: 'My account' })).toBeVisible();
   await expect(page.getByText('Here you can manage your profile, favorites and orders.')).toBeVisible();
   await expect(page.getByRole('link', { name: 'Favorites', exact: true })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Profile', exact: true })).toBeVisible();
