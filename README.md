@@ -2,7 +2,7 @@
 
 End-to-end tests for [Practice Software Testing ("Toolshop")](https://practicesoftwaretesting.com), written with Playwright and TypeScript.
 
-**Status: work in progress.** I'm learning Playwright and TypeScript, and this repo is where I build the skills in public. It currently contains one test.
+**Status: work in progress.** I'm learning Playwright and TypeScript, and this repo is where I build the skills in public. It currently contains one test (still in progress).
 
 ## What exists today
 
